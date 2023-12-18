@@ -1,0 +1,109 @@
+/* Predict.css */
+
+.predict-container {
+    background-color: #FFE3F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+  
+.predict-heading {
+    color: #FF6AC3;
+    font-size: 100px;
+    font-weight: '900';
+    letter-spacing: 10;
+    word-wrap: 'break-word';
+    text-align: center;
+}
+  
+.form-group {
+    margin: 5px;
+}
+
+.label-text {
+    display: block;
+    margin-bottom: 5px;
+    color: 'black';
+    font-size: 15px;
+    font-weight: '300';
+    word-wrap: 'break-word';
+}
+
+.input-box{
+    margin-left: 20px;
+    background: white;
+    border-radius: 5px;
+    border: 1px #FF6AC3 solid;
+    display: inline-block;
+    flex-direction: column;
+}
+
+.select-option{
+    margin-left: 10px;
+}  
+
+.ratio-text{
+    display: inline-block;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#prediction-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.5s;
+    opacity: 0;
+}
+
+#prediction-popup.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+#popup-content {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    border: 2px solid #FF6AC3;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    transition: visibility 0s, opacity 0.5s;
+  }
+
+#close-popup {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #FF6AC3;
+}
+
+.prediction-result {
+    font-size: 30px; 
+    margin-top: 20px;
+    color: #FF6AC3;
+    font-weight: '900';
+    word-wrap: 'break-word'
+}
+  
