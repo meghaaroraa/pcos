@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './HomePage.css'
 
@@ -25,9 +26,11 @@ function HomePage() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-            <Button variant="outline-light" size="lg" className="px-4" style={{color: "#FF6AC3", borderColor: "#FF6AC3"}}>
-              Sign In
-            </Button>
+            <Link to="/login">
+              <Button variant="outline-light" size="lg" className="px-4" style={{ color: "#FF6AC3", borderColor: "#FF6AC3" }}>
+                Sign In
+              </Button>
+            </Link>
           </div>
         </Col>
       </Row>

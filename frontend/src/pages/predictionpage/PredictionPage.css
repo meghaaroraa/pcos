@@ -1,4 +1,4 @@
-/* Predict.css */
+/* Predict.css
 
 .predict-container {
     background-color: #FFE3F4;
@@ -106,4 +106,128 @@
     font-weight: '900';
     word-wrap: 'break-word'
 }
+   */
+
+/* maira ########### kac ss vala code */
+body, h1, p, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.predict-container {
+    max-width: 600px;
+    margin: auto;
+    /* background-color: #FFE3F4; */
+}
+
+body {
+    background-color: #FFE3F4; /* Setting background color for the entire body */
+}
+
+.predict-container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .predict-heading {
+    text-align: center;
+    margin-left: 170px;
+    margin-bottom: 40px;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .label-text {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; /* Added margin for spacing */
+  }
+  
+  .select-option,
+  .input-box {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #FFE3F4; /* Add your desired background color */
+    border: 1px solid #e0529e; 
+    color:#e0529e;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+}
+.input-box:hover {
+    background-color: #FFE3F4; /* Change to the color you prefer on hover */
+}
+.input:focus{
+    border-color: #e0529e;
+}
+  
+  .ratio-text {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  
+  .predict-button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 120px;
+    height: 60px;
+    background-color: #FF6AC3;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: white; /* Set the initial text color to white */
+    border-radius: 10px; /* Added to make corners curved */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Added for smooth hover effect */
+  }
+  
+  .predict-button:hover {
+    background-color: white;
+    color: #FF6AC3; /* Added to change text color to white on hover */
+  }
+  #prediction-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  #popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .prediction-result {
+    font-weight: bold;
+  }
   
