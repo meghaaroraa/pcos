@@ -1,10 +1,10 @@
 .heading {
   color: #FF6AC3;
-  font-size: 100px;
-  font-weight: '900';
-  letter-spacing: 10;
-  word-wrap: 'break-word';
-  text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    word-wrap: break-word;
+    text-align: center;
 }
 
 .heading2{

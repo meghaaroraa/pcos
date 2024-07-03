@@ -23,7 +23,7 @@ function SignIn() {
             CYSTER
           </h1>
           <p className="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Welcome to CYSTER, your premier destination for comprehensive women's health information and support. Our platform is dedicated to providing personalized medical insights and fostering a supportive community for discussing health concerns. Sign in to access your personalized results and stay updated with the latest health news and resources tailored just for you.
           </p>
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
             <Link to="/login">

@@ -15,11 +15,11 @@ const MyNavbar = () => {
       {showNavbar && (
         <Navbar variant="light" expand="lg">
           <Container style={{ padding: "10px" }}>
-            <Navbar.Brand href="#home" className='custom-navlink'>Cyster</Navbar.Brand>
+            <Navbar.Brand href="#home" className='custom-navlink'>CYSTER</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">
-                <Nav.Link href="/homepage" className='custom-navlink'>Home</Nav.Link>
+                <Nav.Link href="/homepage" className='custom-navlink' >Home</Nav.Link>
                 <Nav.Link href="/aboutpage" className='custom-navlink'>About</Nav.Link>
                 <Nav.Link href="/contactpage" className='custom-navlink'>Contact</Nav.Link>
                 <Nav.Link href='/predictionpage' className='custom-navlink'>Predict</Nav.Link>
@@ -33,3 +33,4 @@ const MyNavbar = () => {
 };
 
 export default MyNavbar;
+

@@ -189,9 +189,27 @@ function Predict() {
         </div>
       ))}
 
-      <Button onClick={handlePredict} variant="outline-light" size="lg" className="m-5 px-4" style={{color: "#FF6AC3", borderColor: "#FF6AC3"}}>
-        Predict
-      </Button>
+<Button 
+  onClick={handlePredict} 
+  variant="outline-light" 
+  size="sm"
+  className="m-5 px-3 py-1 rounded-2"  // Adjust rounded value for slightly rounded corners
+  style={{
+    color: "#FF6AC3", 
+    borderColor: "#FF6AC3",
+    fontSize: "20px",
+    width: "170px",  
+    height: "60px",  
+    fontWeight: "bold",  
+    textTransform: "uppercase", 
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  }}
+>
+  Predict
+</Button>
+
       
       {prediction !== null && (
         <div id="prediction-popup" className={prediction ? 'show' : 'hide'}>
